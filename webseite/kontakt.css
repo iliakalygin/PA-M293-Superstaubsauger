@@ -13,19 +13,20 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-  
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-  
+
 .nav-links a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
 }
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -38,20 +39,20 @@ h2, h3 {
 
 .contact-container {
     display: flex;
-    justify-content: space-between; /* Updated for alignment */
+    justify-content: space-between;
 }
 
 .contact-info {
-    flex-basis: 48%; /* Same as before for consistency */
+    flex-basis: 48%;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-right: 2%; /* Added space between the blocks */
+    margin-right: 2%;
 }
 
 .contact-form {
-    flex-basis: 48%; /* Same as before for consistency */
+    flex-basis: 48%;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -70,6 +71,7 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"], /* Hinzugefügt für das Telefon-Eingabefeld */
 textarea {
     width: 100%;
     padding: 10px;
@@ -116,6 +118,6 @@ footer {
     }
 
     .contact-info {
-        margin-bottom: 20px; /* Added to separate the blocks vertically on smaller screens */
+        margin-bottom: 20px;
     }
 }
