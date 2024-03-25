@@ -1,0 +1,10 @@
+.main-content {
+    background-color: #ffffff; /* Hintergrundfarbe des Blocks */
+    border-radius: 8px; /* Ecken des Blocks abrunden */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Einen leichten Schatten für Tiefe hinzufügen */
+    padding: 20px; /* Innenabstand, damit der Text nicht am Rand klebt */
+    margin: 20px auto; /* Zentriert den Block horizontal */
+    max-width: 800px; /* Maximale Breite des Blocks */
+    width: 100%; /* Die Breite an den Viewport anpassen, ohne die maximale Breite zu überschreiten */
+    box-sizing: border-box; /* Sicherstellen, dass Padding und Border in die Breite inkludiert sind */
+}
